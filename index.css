@@ -1,0 +1,186 @@
+* {
+    box-sizing:border-box;
+  }
+  
+  body {
+   background-image: url("https://westsidetoday.com/wp-content/uploads/2018/02/ucla-internal-medicine-residency.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat:no-repeat; 
+    font-family: Lora, serif;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+  }
+  
+  main {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+  
+  .start-screen {
+    align-self:center;
+    width: 400px;
+    height: 500px; 
+    background-image: linear-gradient(141deg, #9fb8ad 0%, 
+    #1fc8db 51%, #2cb5e8 75%);
+  }
+  
+  .welcome {
+    text-align:center; 
+    font-size: 40px;
+  }
+  
+  .bear-boundary {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+  
+  .ucla-bear {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .start-button {
+    display:flex; 
+    justify-content: center;
+    margin-top: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .start-quiz {
+    padding: 10px;
+    background-color: azure;
+    border: 0;
+    font-family: Lora, serif; 
+    font-size: 35px;
+    border-radius: 40px;
+  }
+  
+  .start-quiz:hover {
+    background-color: gold;
+    color: white;
+    transition: .3s;
+  }
+  
+  .quiz-form {
+    display:none;
+    align-self: center; 
+    width: 800px;
+  }
+  
+  .js-end-screen {
+    display: none;
+    align-self:center;
+  }
+  
+  label {
+    display: block; 
+    background-image: linear-gradient(141deg, #9fb8ad 0%, 
+    #1fc8db 51%, #2cb5e8 75%);
+    font-size: 20px;
+    margin: 20px 0px; 
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .prompt {
+    background-image: linear-gradient(141deg, #9fb8ad 0%, 
+    #1fc8db 51%, #2cb5e8 75%);
+    Color: white;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  label:hover {
+    background-image: linear-gradient(141deg, rgb(248, 211, 46) 0%, #e2e072 51%, #f0cc58 75%);
+    transition: .3s;
+  }
+  
+  label:focus {
+     background-image: linear-gradient(141deg, rgba(248, 230, 63, 0.719) 0%, #e2e072 51%, #f0bc12 75%);
+     color: white;
+  }
+  
+  .submitButtonContainer {
+    display:flex;
+    justify-content: center;
+  }
+  
+  .js-form button {
+    border: 0;
+    padding: 10px 100px;
+    background-color: goldenrod;
+    font-size: 25px;
+    border-radius: 20px;
+  }
+  
+  .js-form button:hover {
+    color:white;
+    background-color: rgb(255, 196, 0);
+    transition: .3s; 
+  }
+  
+  .feedback-box {
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 500px; 
+    padding: 10px;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, 
+    #1fc8db 51%, #2cb5e8 75%);
+  }
+  
+  .feedback {
+    margin: 0;
+  }
+  
+  .nextQuestionButton, .restartButton {
+    padding: 10px;
+    background-color: azure;
+    border: 0;
+    font-family: Lora, serif; 
+    font-size: 20px;
+    border-radius: 30px;
+  }
+  
+  .nextQuestionButton:hover, .restartButton:hover {
+    color:white;
+    background-color: rgb(255, 196, 0);
+    transition: .3s;
+  }
+  
+  .status {
+    color: white;
+    margin-right: 15px;
+  }
+  
+  fieldset {
+    border: 0;
+    padding: 0;
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .feedback-box {
+      min-width: 320px;
+    }
+  }
+  
+  
